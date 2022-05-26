@@ -1,0 +1,21 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 500;
+  color: wheat;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.item {
+  list-style: none;
+}
+
+.bg-heder {
+  background-color: rgba(61, 61, 61, 0.4);
+}
+
+.active {
+  color: red;
+}

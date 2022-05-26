@@ -1,0 +1,44 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* 
+.section-movi {
+  padding-top: 20px;
+} */
+.item {
+  margin-top: 20px;
+}
+
+.MovieDetails__photo {
+  // width: 100px;
+  @media screen and (max-width: 400px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+// .card {
+//   width: 50px;
+// }
+
+.main-bg {
+  background-image: linear-gradient(
+      rgba(11, 16, 36, 0.906),
+      rgba(61, 61, 61, 0.4)
+    ),
+    url('../../images/moviesBg.jpg');
+
+  height: 100vh;
+  // background-attachment: fixed;
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-size: cover;
+  min-height: 95vh;
+  color: wheat;
+  /* width: 100vw; */
+  /* margin-bottom: 10px; */
+  /* border-radius: 5px; */
+  overflow-x: scroll;
+}

@@ -1,0 +1,35 @@
+.MovieDetails {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    display: flex;
+  }
+}
+
+.MovieDetails__description {
+  max-width: 700px;
+
+  @media screen and (max-width: 480px) {
+    margin-top: 10px;
+  }
+}
+
+.bg {
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-size: cover;
+  min-height: 95vh;
+  color: wheat;
+  /* width: 100vw; */
+  /* margin-bottom: 10px; */
+  /* border-radius: 5px; */
+  /* overflow: hidden; */
+  background-attachment: fixed;
+}
+
+.link {
+  color: wheat;
+}
